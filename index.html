@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Grocify</title>
+</head>
+<body>
+    <header class="container p-20 flex max-md:p-2 justify-between items-center">
+        <div class="logo">
+            <img src="images/logo.png" width="150px" alt="">
+        </div>
+        <div class="linkes text-white flex max-md:hidden">
+            <ul class="flex gap-12">
+                <li>
+                    <a href="#" class="hover:text-yellow-200">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:text-yellow-200">About</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:text-yellow-200">Features</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:text-yellow-200">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="flex ">
+            <i class="fa-solid fa-bag-shopping text-4xl text-white px-2 hover:text-yellow-200 cursor-pointer "></i>
+            <i class="fa-solid fa-bars text-4xl text-white px-2 hover:text-yellow-200 cursor-pointer md:hidden bars">
+                <div class="linkes-bar">
+                    <ul class="text-black bg-white p-5 rounded-sm text-lg absolute right-4 w-44 hidden">
+                        <li>
+                            <a href="#" class="hover:text-orange-400 hover:pl-4 duration-300 pt-2 block border-b-2">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:text-orange-400 hover:pl-4 duration-300 pt-4 block border-b-2">About</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:text-orange-400 hover:pl-4 duration-300 block border-b-2 pt-4">Features</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:text-orange-400 hover:pl-4 duration-300 pt-4 block">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </i>
+        </div>
+    </header>
+    <section class="px-20 flex items-center justify-between max-md:flex-col-reverse">
+        <div class="text-white">
+            <h1 class="text-4xl mb-3 max-md:text-2xl">Groceries</h1>
+            <h1 class="text-4xl mb-3 max-md:text-2xl">delivery in 15 mins</h1>
+            <p class="text-xs text-gray-300">
+                Grocify offer a wide range of products, inclusing fresh prodicts meats,
+                dairy, baked goods and non-perishaple items.   
+            </p>
+            <div class="mt-3 flex max-md:flex-col items-center max-md:mt-10">
+                <a href="#" class="bg-yellow-400 text-black rounded-full py-2 px-6 mr-3 hover:bg-yellow-200">order now</a>
+                <a href="#" class="hover:text-yellow-400 max-md:mt-2">Download App
+                    <i class="fa-solid fa-arrow-down"></i>
+                </a>
+            </div>
+        </div>
+        <div class="">
+            <img src="images/grocery-image.png" class="max-md:w-96 max-md:max-w-none max-md:mb-6" alt="">
+        </div>
+    </section>
+</body>
+</html>
